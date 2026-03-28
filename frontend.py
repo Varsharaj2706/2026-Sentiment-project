@@ -2,6 +2,7 @@ import streamlit as st
 import joblib
 import re
 import pandas as pd
+import numpy as np
 
 def mycleaning(doc):
     return re.sub("[^a-zA-Z ]","",doc).lower()
